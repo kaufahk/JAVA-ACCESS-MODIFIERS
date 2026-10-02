@@ -7,4 +7,8 @@ public class Doctor {
         System.out.println("Sickness: "+obj1.getSickness());
         System.out.println("Contact: "+obj1.getcontact());
     }
+    public void updateSickness(Patient obj1, String newSickness){
+        obj1.setSickness(newSickness);
+        System.out.println("Sickness updated successfully.");
+    }
 }
